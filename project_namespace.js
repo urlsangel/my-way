@@ -20,7 +20,7 @@ project_namespace.breakpoint_outer = 757;
   Set breakpoint classes on the body
 */
 project_namespace.setBreakpointClass = function(breakpoint, isOn) {
-  isOn ? $.root.addClass('breakpoint-' + breakpoint) : $.root.removeClass('breakpoint-' + breakpoint);
+	isOn ? $.root.addClass('breakpoint-' + breakpoint) : $.root.removeClass('breakpoint-' + breakpoint);
 };
 
 
@@ -28,7 +28,7 @@ project_namespace.setBreakpointClass = function(breakpoint, isOn) {
   Setup Main Nav in small screen view
 */
 project_namespace.setupMainNavSmall = function() {
- // do setup code here, use plugins if at all possible
+	// do setup code here, use plugins if at all possible
 };
 
 
